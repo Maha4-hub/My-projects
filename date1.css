@@ -1,0 +1,17 @@
+.main{
+  background-color:rgb(233, 20, 218);
+  color:white;
+  width:200px;
+  height:100px;
+  font-size:30px;
+  text-align:center;
+  margin:150px;
+
+}
+.sub{
+ background-color:rgb(250, 12, 182);
+ color:white;
+ font-size:50px;
+ width:300px;
+ height:100px;
+}

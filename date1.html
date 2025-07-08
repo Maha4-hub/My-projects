@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="date1.css">
+</head>
+<body>
+<center><h1>DIGITAL CLOCK</h1>
+<div class="main">
+    <div class="sub">
+        <span id="hrs">00</span>
+        <span>:</span>
+         <span id="min">00</span>
+        <span>:</span>
+         <span id="sec">00</span>
+    </div>
+
+</div>
+<script>
+
+        
+    function pad(num){
+      return num<10 ? "0"+num:num;
+    }
+    setInterval(()=>{
+     let CurrentTime=new Date();
+     hrs.innerHTML=pad(CurrentTime.getHours());
+      min.innerHTML=pad(CurrentTime.getMinutes());
+       sec.innerHTML=pad(CurrentTime.getSeconds());
+    })
+</script>
+</center>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.child{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(15, 235, 44);
+}
+.child >div{
+    background-color: #f62512c2;
+    text-align: left;
+    margin:50px;
+    width: 70px;
+    line-height: 70px;
+}
+ .child1{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color:rgba(224, 255, 71, 0.76)
+}
+.child1 >div{
+    background-color:tomato; 
+    text-align: right;
+    margin:50px;
+    width: 70px;
+    line-height: 70px;
+}
+.child2{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(69, 218, 28, 0.76); 
+}
+.child2 >div{
+    background-color: yellow; 
+    text-align: center;
+    margin:50px;
+    width: 70px;
+    line-height: 70px;
+}
+.child3{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(227, 17, 17);
+}
+.child3 >div{
+    background-color: rgba(71, 255, 148, 0.868);
+    text-align: justify;
+    margin:50px;
+    width: 70px;
+    line-height: 70px;
+}

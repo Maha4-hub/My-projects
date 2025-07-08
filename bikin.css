@@ -1,0 +1,41 @@
+#in{
+    font-size: xx-large;
+    text-align: left;
+}
+#b{
+    background-color: rgb(8, 154, 245); height: 75px;
+    color: white;
+    list-style-type: none;
+    column-gap: 5px;
+    font-size: x-large;
+    column-count: 7;
+    text-align: end;
+    padding-top: 20px;
+    
+}
+li:hover{
+    background-color: skyblue;
+    color: azure;
+}
+button{
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 30px;
+    border: 2px solid white;
+   font-size: large;
+    background-color: white;
+    color: skyblue;
+}
+button:hover{
+    background-color: #05b2f7;
+    color: azure;  
+}
+h1{
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: xxx-large;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;   
+}
