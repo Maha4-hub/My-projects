@@ -1,0 +1,52 @@
+
+.header img{
+    float: left;
+    width: 150px;
+    height: 150px;
+
+}
+
+.header h1{
+    background-color: palevioletred;
+    font-size: 50px;
+    width: 600px;
+    left:400px;
+    position: relative;    
+    padding: 5px;
+}
+
+#nav{
+    
+    float: inline-end;
+    word-spacing: 25px;
+}
+
+a.active{
+    color: black;
+}
+
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+article img{
+  transition: all 5s linear 3s;
+}
+
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+ 
+.footer{
+  float:center;
+  text-align: center;
+  display: flex;
+}
+  
+
